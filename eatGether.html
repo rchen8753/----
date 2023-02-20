@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Bootstrap demo</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+      <!-- fontawesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+      <link rel="stylesheet" href="./eatGether.css">
+</head>
+
+
+
+<body>
+      <div class="container">
+            <div class="cover-wrapper">
+                  <div id="cover" class="carousel slide" data-bs-ride="carousel">
+
+                        <div class="carousel-inner">
+                              <div class="carousel-item active" data-bs-interval="3000" data-bs-slide="0">
+                                    <img src="https://cdn.eatgether.com/images/website/banner/01.jpeg"
+                                          class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="3000" data-bs-slide="1">
+                                    <img src="https://cdn.eatgether.com/images/website/banner/02.jpeg"
+                                          class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="3000" data-bs-slide="2">
+                                    <img src="https://cdn.eatgether.com/images/website/banner/03.jpeg"
+                                          class="d-block w-100" alt="...">
+                              </div>
+                        </div>
+
+                  </div>
+                  <div class="carousel-indicators">
+                        <ul>
+                              <li>
+                                    <button data-bs-target="#cover" data-bs-slide-to="0"></button>
+                              </li>
+                              <li>
+                                    <button data-bs-target="#cover" data-bs-slide-to="1"></button>
+                              </li>
+                              <li>
+                                    <button data-bs-target="#cover" data-bs-slide-to="2"></button>
+                              </li>
+                        </ul>
+                  </div>
+                  <div class="hot-spot">
+                        <div class="hot-spot-title">
+                              <h2>熱門聚會地點</h2>
+                        </div>
+                        <div class="hot-spot-list">
+                              <ul class="list-cards">
+                                    <li class="list-card">
+                                          <img src="	https://www.eatgether.com/static/media/TPE.91790170.png" alt="">
+                                          <h2>大台北</h2>
+                                    </li>
+                                    <li class="list-card">
+                                          <img src="https://www.eatgether.com/static/media/TAO.68ddb6e3.png" alt="">
+                                          <h2>桃園市</h2>
+                                    </li>
+                                    <li class="list-card">
+                                          <img src="https://www.eatgether.com/static/media/HSZ.417cf6b8.png" alt="">
+                                          <h2>新竹市</h2>
+                                    </li>
+                                    <li class="list-card">
+                                          <img src="	https://www.eatgether.com/static/media/TXG.c136bf99.png" alt="">
+                                          <h2>臺中市</h2>
+                                    </li>
+                                    <li class="list-card">
+                                          <img src="https://www.eatgether.com/static/media/TNN.1ab27f99.png" alt="">
+                                          <h2>臺南市</h2>
+                                    </li>
+                                    <li class="list-card">
+                                          <img src="https://www.eatgether.com/static/media/KHH.da56765a.png" alt="">
+                                          <h2>高雄市</h2>
+                                    </li>
+                              </ul>
+                        </div>
+                  </div>
+            </div>
+
+            <div class="body">
+                  <div class="new-post">
+                        <div class="new-post-title">
+                              <h2>最新貼文</h2>
+                        </div>
+                        <div class="category-btns">
+                              <button id="1">
+                                    最新
+                              </button>
+                              <button id="2">
+                                    熱門
+                              </button>
+                              <button id="3">
+                                    私密
+                              </button>
+                              <button id="4">
+                                    好友
+                              </button>
+                              <button id="5">
+                                    追蹤
+                              </button>
+                              <button id="6">
+                                    隱藏
+                              </button>
+                        </div>
+                        <div class="newpost-cards">
+                              <div class="newpost-card">
+                                    <a href="https://www.eatgether.com/zh-tw/post/babc3f6a-8873-4d39-a89a-2b3612034a6e"
+                                          style="color: black;">
+                                          <div class="newpost-card-title">
+                                                <img src="	https://cdn.eatgether.com/member/575f4bf1-13a1-410…b/avatar/350885e5-7cf2-4012-a718-d16d3b193065.jpg"
+                                                      alt="rose">
+                                                <h4>真愛挑日子-交友約會聯誼</h4>
+                                          </div>
+                                          <div class="newpostcard-content">
+                                                <div class="contentbody">
+                                                      <div class="contentbody-texts">
+                                                            <img src="	https://www.eatgether.com/static/media/hot.9ed1e431.svg"
+                                                                  alt="">
+                                                            <span>2023-02-17 16:18</span>
+                                                            <h3>真愛哪裡尋找</h3>
+                                                            <p>或許你錯過的不是一個對的人
+                                                                  而是那個對的時間
+                                                                  讓我們為您挑選
+                                                                  遇到真愛的那個好日子
+
+                                                                  在網路世界或許能認識朋友或對象
+                                                                  但是否礙於安全考量不敢輕易跨出？
+                                                                  讓我們為您建立良好友善的安全環境
+                                                                  讓彼此能真正碰面相處
+                                                                  藉此來深入瞭解
+
+                                                                  希望透過這樣的活動中
+                                                                  感受愛的溫度
+                                                            </p>
+                                                      </div>
+                                                      <div class="contentbody-img">
+                                                            <img src="https://picsum.photos/100/100/?random=10">
+                                                      </div>
+                                                </div>
+                                                <div class="contentbody-footer">
+                                                      <div class="contentbody-like">
+
+                                                            <img src="https://www.eatgether.com/static/media/post_glass.e03d03fd.svg"
+                                                                  alt="cup">
+
+
+                                                            <p>0 推薦</p>
+
+                                                      </div>
+                                                      <div class="contentbody-comment">
+
+                                                            <img src="https://www.eatgether.com/static/media/post_chat.4e1a279e.svg"
+                                                                  alt="comment">
+
+
+                                                            <p>0 留言</p>
+
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </a>
+                              </div>
+                              <div class="newpost-card">
+                                    <a href="https://www.eatgether.com/zh-tw/post/babc3f6a-8873-4d39-a89a-2b3612034a6e"
+                                          style="color: black;">
+                                          <div class="newpost-card-title">
+                                                <img src="	https://cdn.eatgether.com/member/575f4bf1-13a1-410…b/avatar/350885e5-7cf2-4012-a718-d16d3b193065.jpg"
+                                                      alt="rose">
+                                                <h4>真愛挑日子-交友約會聯誼</h4>
+                                          </div>
+                                          <div class="newpostcard-content">
+                                                <div class="contentbody">
+                                                      <div class="contentbody-texts">
+                                                            <img src="	https://www.eatgether.com/static/media/hot.9ed1e431.svg"
+                                                                  alt="">
+                                                            <span>2023-02-17 16:18</span>
+                                                            <h3>真愛哪裡尋找</h3>
+                                                            <p>或許你錯過的不是一個對的人
+                                                                  而是那個對的時間
+                                                                  讓我們為您挑選
+                                                                  遇到真愛的那個好日子
+
+                                                                  在網路世界或許能認識朋友或對象
+                                                                  但是否礙於安全考量不敢輕易跨出？
+                                                                  讓我們為您建立良好友善的安全環境
+                                                                  讓彼此能真正碰面相處
+                                                                  藉此來深入瞭解
+
+                                                                  希望透過這樣的活動中
+                                                                  感受愛的溫度
+                                                            </p>
+                                                      </div>
+                                                      <div class="contentbody-img">
+                                                            <img src="https://picsum.photos/100/100/?random=10">
+                                                      </div>
+                                                </div>
+                                                <div class="contentbody-footer">
+                                                      <div class="contentbody-like">
+
+                                                            <img src="https://www.eatgether.com/static/media/post_glass.e03d03fd.svg"
+                                                                  alt="cup">
+
+
+                                                            <p>0 推薦</p>
+
+                                                      </div>
+                                                      <div class="contentbody-comment">
+
+                                                            <img src="https://www.eatgether.com/static/media/post_chat.4e1a279e.svg"
+                                                                  alt="comment">
+
+
+                                                            <p>0 留言</p>
+
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </a>
+                              </div>
+                              <div class="newpost-card">
+                                    <a href="https://www.eatgether.com/zh-tw/post/babc3f6a-8873-4d39-a89a-2b3612034a6e"
+                                          style="color: black;">
+                                          <div class="newpost-card-title">
+                                                <img src="	https://cdn.eatgether.com/member/575f4bf1-13a1-410…b/avatar/350885e5-7cf2-4012-a718-d16d3b193065.jpg"
+                                                      alt="rose">
+                                                <h4>真愛挑日子-交友約會聯誼</h4>
+                                          </div>
+                                          <div class="newpostcard-content">
+                                                <div class="contentbody">
+                                                      <div class="contentbody-texts">
+                                                            <img src="	https://www.eatgether.com/static/media/hot.9ed1e431.svg"
+                                                                  alt="">
+                                                            <span>2023-02-17 16:18</span>
+                                                            <h3>真愛哪裡尋找</h3>
+                                                            <p>或許你錯過的不是一個對的人
+                                                                  而是那個對的時間
+                                                                  讓我們為您挑選
+                                                                  遇到真愛的那個好日子
+
+                                                                  在網路世界或許能認識朋友或對象
+                                                                  但是否礙於安全考量不敢輕易跨出？
+                                                                  讓我們為您建立良好友善的安全環境
+                                                                  讓彼此能真正碰面相處
+                                                                  藉此來深入瞭解
+
+                                                                  希望透過這樣的活動中
+                                                                  感受愛的溫度
+                                                            </p>
+                                                      </div>
+                                                      <div class="contentbody-img">
+                                                            <img src="https://picsum.photos/100/100/?random=10">
+                                                      </div>
+                                                </div>
+                                                <div class="contentbody-footer">
+                                                      <div class="contentbody-like">
+
+                                                            <img src="https://www.eatgether.com/static/media/post_glass.e03d03fd.svg"
+                                                                  alt="cup">
+
+
+                                                            <p>0 推薦</p>
+
+                                                      </div>
+                                                      <div class="contentbody-comment">
+
+                                                            <img src="https://www.eatgether.com/static/media/post_chat.4e1a279e.svg"
+                                                                  alt="comment">
+                                                            <p>0 留言</p>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </a>
+                              </div>
+                        </div>
+                        <div class="cards-extension-btns">
+                              <div class="extension-btn">
+                                    <button>更多熱門貼文</button>
+                              </div>
+                              <div class="changepage-btn">
+                                    <p>1/5</p>
+                                    <button class="previous">
+                                          < </button>
+                                                <button class="next">
+                                                      >
+                                                </button>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="new-post" id="new-post2">
+                        <div class="new-post-title">
+                              <h2>最新聚會</h2>
+                        </div>
+                        <div class="category-btns">
+                              <button id="1">
+                                    情人節
+                              </button>
+                              <button id="2">
+                                    電影
+                              </button>
+                              <button id="3">
+                                    唱歌
+                              </button>
+                              <button id="4">
+                                    新手友善
+                              </button>
+                        </div>
+                        <div class="btn-groups">
+                              <div class="btn-group dropdown">
+                                    <button class="btn dropdown-toggle dropdown" type="button"
+                                          data-bs-toggle="dropdown">
+                                          <label for="form-select">台灣</label>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                          <form>
+                                                <div class="form-selection" id="form1">
+                                                      <select class="form-select" aria-label="台灣">
+                                                            <option value="1">台灣</option>
+                                                            <option value="2">香港/澳門</option>
+                                                            <option value="3">日本</option>
+                                                      </select>
+
+
+                                                      <select class="form-select" aria-label="">
+                                                            <option selected>請選擇則地區</option>
+                                                            <option value="1">基隆市</option>
+                                                            <option value="2">臺北市</option>
+                                                            <option value="3">新北市</option>
+                                                            <option value="4">桃園市</option>
+                                                            <option value="5">新竹市</option>
+                                                            <option value="6">新竹縣</option>
+                                                            <option value="7">臺中市</option>
+                                                            <option value="8">彰化縣</option>
+                                                            <option value="9">苗栗縣</option>
+                                                            <option value="10">南投縣</option>
+                                                            <option value="11">雲林縣</option>
+                                                            <option value="12">嘉義市</option>
+                                                            <option value="13">嘉義縣</option>
+                                                            <option value="14">臺南市</option>
+                                                            <option value="15">高雄市</option>
+                                                            <option value="16">屏東縣</option>
+                                                            <option value="17">宜蘭縣</option>
+                                                            <option value="18">花蓮縣</option>
+                                                            <option value="19">台東縣</option>
+                                                            <option value="20">澎湖縣</option>
+                                                            <option value="21">金門縣</option>
+                                                            <option value="22">連江縣</option>
+                                                      </select>
+                                                </div>
+
+                                                <div class="confirm-btn">
+                                                      <button type="submit" class="btn btn-dark">確認</button>
+                                                </div>
+                                          </form>
+                                    </div>
+                              </div>
+                              <div class="btn-group dropdown">
+                                    <button class="btn dropdown-toggle dropdown" type="button"
+                                          data-bs-toggle="dropdown">
+                                          <label for="form-select">篩選器</label>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                          <form>
+                                                <div class="calendar">
+                                                      <div class="month">
+                                                            <ul>
+                                                                  <li class="prev">❮</li>
+                                                                  <li class="next">❯</li>
+                                                                  <li style="text-align:center">
+                                                                        八月<br>
+                                                                        <span style="font-size:18px">2023</span>
+                                                                  </li>
+                                                            </ul>
+                                                      </div>
+
+                                                      <ul class="weekdays">
+                                                            <li>一</li>
+                                                            <li>二</li>
+                                                            <li>三</li>
+                                                            <li>四</li>
+                                                            <li>五</li>
+                                                            <li>六</li>
+                                                            <li>日</li>
+                                                      </ul>
+
+                                                      <ul class="days">
+                                                            <li>1</li>
+                                                            <li>2</li>
+                                                            <li>3</li>
+                                                            <li>4</li>
+                                                            <li>5</li>
+                                                            <li>6</li>
+                                                            <li>7</li>
+                                                            <li>8</li>
+                                                            <li>9</li>
+                                                            <li><span class="active">10</span></li>
+                                                            <li>11</li>
+                                                            <li>12</li>
+                                                            <li>13</li>
+                                                            <li>14</li>
+                                                            <li>15</li>
+                                                            <li>16</li>
+                                                            <li>17</li>
+                                                            <li>18</li>
+                                                            <li>19</li>
+                                                            <li>20</li>
+                                                            <li>21</li>
+                                                            <li>22</li>
+                                                            <li>23</li>
+                                                            <li>24</li>
+                                                            <li>25</li>
+                                                            <li>26</li>
+                                                            <li>27</li>
+                                                            <li>28</li>
+                                                            <li>29</li>
+                                                            <li>30</li>
+                                                            <li>31</li>
+                                                      </ul>
+                                                </div>
+
+                                                <div class="form-selection" id="form2">
+
+                                                      <div class="form-select-section">
+                                                            <h1>聚會類別(可複選)</h1>
+                                                            <select class="form-select">
+                                                                  <option selected>請選擇感興趣的聚會類型</option>
+                                                                  <option value="1">商業頭資</option>
+                                                                  <option value="2">影音展演</option>
+                                                                  <option value="3">遊戲卡牌</option>
+                                                                  <option value="4">美容時尚</option>
+                                                                  <option value="5">其他</option>
+                                                                  <option value="6">體育學習</option>
+                                                                  <option value="7">命理諮詢</option>
+                                                                  <option value="8">美食美酒</option>
+                                                                  <option value="9">旅行出遊</option>
+                                                                  <option value="10">運動健身</option>
+                                                                  <option value="11">唱歌派對</option>
+                                                            </select>
+                                                      </div>
+
+
+
+                                                      <div class="form-select-section">
+                                                            <h1>聚會類別(可複選)</h1>
+                                                            <select class="form-select">
+                                                                  <option selected>請選擇感興趣的聚會類型</option>
+                                                                  <option value="1">商業頭資</option>
+                                                                  <option value="2">影音展演</option>
+                                                                  <option value="3">遊戲卡牌</option>
+                                                                  <option value="4">美容時尚</option>
+                                                                  <option value="5">其他</option>
+                                                                  <option value="6">體育學習</option>
+                                                                  <option value="7">命理諮詢</option>
+                                                                  <option value="8">美食美酒</option>
+                                                                  <option value="9">旅行出遊</option>
+                                                                  <option value="10">運動健身</option>
+                                                                  <option value="11">唱歌派對</option>
+                                                            </select>
+                                                      </div>
+
+                                                      <div class="form-select-section">
+                                                            <h1>聚會類別(可複選)</h1>
+                                                            <select class="form-select">
+                                                                  <option selected>請選擇感興趣的聚會類型</option>
+                                                                  <option value="1">商業頭資</option>
+                                                                  <option value="2">影音展演</option>
+                                                                  <option value="3">遊戲卡牌</option>
+                                                                  <option value="4">美容時尚</option>
+                                                                  <option value="5">其他</option>
+                                                                  <option value="6">體育學習</option>
+                                                                  <option value="7">命理諮詢</option>
+                                                                  <option value="8">美食美酒</option>
+                                                                  <option value="9">旅行出遊</option>
+                                                                  <option value="10">運動健身</option>
+                                                                  <option value="11">唱歌派對</option>
+                                                            </select>
+                                                      </div>
+                                                </div>
+
+                                                <div class="confirm-btn">
+                                                      <button type="submit" class="btn btn-dark">確認</button>
+                                                </div>
+                                          </form>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="newpost-cards2">
+                              <div class="newpost-card2">
+                                    <a href="https://www.eatgether.com/zh-tw/meetup/cf126152-4f40-4176-bda8-c6579f443911"
+                                          style="color: black;">
+                                          <div class="newpost-card-title">
+                                                <img src="https://picsum.photos/294/270/?random=10">
+                                          </div>
+                                          <div class="contentbody">
+                                                <h4>2/18禮拜六晚上00:30台北中華錢櫃</h4>
+                                                <p>錢櫃中華新館</p>
+                                                <p>星期日,二月 19日 04:00</p>
+
+                                          </div>
+                                          <div class="contentbody-footer">
+                                                <div class="footer-img">
+                                                      <img loading="lazy"
+                                                            src="https://cdn.eatgether.com/member/011dbf28-010f-4843-bd00-fc1305d182d0/avatar/80c7919d-c754-4e77-aa08-540e7e6325f0.jpg"
+                                                            width="30" heigh="30" style="border-radius: 50px;">
+                                                </div>
+                                                <div class="footer-span">
+                                                      <span class="has-text-weight-bold"
+                                                            style="color: rgb(51, 51, 51); z-index: 99;">
+                                                            A Xu
+                                                      </span>
+                                                      <span class="icon">
+                                                            <img src="/static/media/popularity.d5eeb51c.svg" alt="">
+                                                      </span>
+                                                      <span>
+                                                            1247
+                                                      </span>
+                                                </div>
+                                          </div>
+
+                                    </a>
+                              </div>
+                              <div class="newpost-card2">
+                                    <a href="https://www.eatgether.com/zh-tw/meetup/cf126152-4f40-4176-bda8-c6579f443911"
+                                          style="color: black;">
+                                          <div class="newpost-card-title">
+                                                <img src="https://picsum.photos/294/270/?random=10">
+                                          </div>
+                                          <div class="contentbody">
+                                                <h4>2/18禮拜六晚上00:30台北中華錢櫃</h4>
+                                                <p>錢櫃中華新館</p>
+                                                <p>星期日,二月 19日 04:00</p>
+
+                                          </div>
+                                          <div class="contentbody-footer">
+                                                <div class="footer-img">
+                                                      <img loading="lazy"
+                                                            src="https://cdn.eatgether.com/member/011dbf28-010f-4843-bd00-fc1305d182d0/avatar/80c7919d-c754-4e77-aa08-540e7e6325f0.jpg"
+                                                            width="30" heigh="30" style="border-radius: 50px;">
+                                                </div>
+                                                <div class="footer-span">
+                                                      <span class="has-text-weight-bold"
+                                                            style="color: rgb(51, 51, 51); z-index: 99;">
+                                                            A Xu
+                                                      </span>
+                                                      <span class="icon">
+                                                            <img src="/static/media/popularity.d5eeb51c.svg" alt="">
+                                                      </span>
+                                                      <span>
+                                                            1247
+                                                      </span>
+                                                </div>
+                                          </div>
+
+                                    </a>
+                              </div>
+                              <div class="newpost-card2">
+                                    <a href="https://www.eatgether.com/zh-tw/meetup/cf126152-4f40-4176-bda8-c6579f443911"
+                                          style="color: black;">
+                                          <div class="newpost-card-title">
+                                                <img src="https://picsum.photos/294/270/?random=10">
+                                          </div>
+                                          <div class="contentbody">
+                                                <h4>2/18禮拜六晚上00:30台北中華錢櫃</h4>
+                                                <p>錢櫃中華新館</p>
+                                                <p>星期日,二月 19日 04:00</p>
+
+                                          </div>
+                                          <div class="contentbody-footer">
+                                                <div class="footer-img">
+                                                      <img loading="lazy"
+                                                            src="https://cdn.eatgether.com/member/011dbf28-010f-4843-bd00-fc1305d182d0/avatar/80c7919d-c754-4e77-aa08-540e7e6325f0.jpg"
+                                                            width="30" heigh="30" style="border-radius: 50px;">
+                                                </div>
+                                                <div class="footer-span">
+                                                      <span class="has-text-weight-bold"
+                                                            style="color: rgb(51, 51, 51); z-index: 99;">
+                                                            A Xu
+                                                      </span>
+                                                      <span class="icon">
+                                                            <img src="/static/media/popularity.d5eeb51c.svg" alt="">
+                                                      </span>
+                                                      <span>
+                                                            1247
+                                                      </span>
+                                                </div>
+                                          </div>
+
+                                    </a>
+                              </div>
+                              <div class="newpost-card2">
+                                    <a href="https://www.eatgether.com/zh-tw/meetup/cf126152-4f40-4176-bda8-c6579f443911"
+                                          style="color: black;">
+                                          <div class="newpost-card-title">
+                                                <img src="https://picsum.photos/294/270/?random=10">
+                                          </div>
+                                          <div class="contentbody">
+                                                <h4>2/18禮拜六晚上00:30台北中華錢櫃</h4>
+                                                <p>錢櫃中華新館</p>
+                                                <p>星期日,二月 19日 04:00</p>
+
+                                          </div>
+                                          <div class="contentbody-footer">
+                                                <div class="footer-img">
+                                                      <img loading="lazy"
+                                                            src="https://cdn.eatgether.com/member/011dbf28-010f-4843-bd00-fc1305d182d0/avatar/80c7919d-c754-4e77-aa08-540e7e6325f0.jpg"
+                                                            width="30" heigh="30" style="border-radius: 50px;">
+                                                </div>
+                                                <div class="footer-span">
+                                                      <span class="has-text-weight-bold"
+                                                            style="color: rgb(51, 51, 51); z-index: 99;">
+                                                            A Xu
+                                                      </span>
+                                                      <span class="icon">
+                                                            <img src="/static/media/popularity.d5eeb51c.svg" alt="">
+                                                      </span>
+                                                      <span>
+                                                            1247
+                                                      </span>
+                                                </div>
+                                          </div>
+
+                                    </a>
+                              </div>
+                              <div class="newpost-card2">
+                                    <a href="https://www.eatgether.com/zh-tw/meetup/cf126152-4f40-4176-bda8-c6579f443911"
+                                          style="color: black;">
+                                          <div class="newpost-card-title">
+                                                <img src="https://picsum.photos/294/270/?random=10">
+                                          </div>
+                                          <div class="contentbody">
+                                                <h4>2/18禮拜六晚上00:30台北中華錢櫃</h4>
+                                                <p>錢櫃中華新館</p>
+                                                <p>星期日,二月 19日 04:00</p>
+
+                                          </div>
+                                          <div class="contentbody-footer">
+                                                <div class="footer-img">
+                                                      <img loading="lazy"
+                                                            src="https://cdn.eatgether.com/member/011dbf28-010f-4843-bd00-fc1305d182d0/avatar/80c7919d-c754-4e77-aa08-540e7e6325f0.jpg"
+                                                            width="30" heigh="30" style="border-radius: 50px;">
+                                                </div>
+                                                <div class="footer-span">
+                                                      <span class="has-text-weight-bold"
+                                                            style="color: rgb(51, 51, 51); z-index: 99;">
+                                                            A Xu
+                                                      </span>
+                                                      <span class="icon">
+                                                            <img src="/static/media/popularity.d5eeb51c.svg" alt="">
+                                                      </span>
+                                                      <span>
+                                                            1247
+                                                      </span>
+                                                </div>
+                                          </div>
+
+                                    </a>
+                              </div>
+                              <div class="newpost-card2">
+                                    <a href="https://www.eatgether.com/zh-tw/meetup/cf126152-4f40-4176-bda8-c6579f443911"
+                                          style="color: black;">
+                                          <div class="newpost-card-title">
+                                                <img src="https://picsum.photos/294/270/?random=10">
+                                          </div>
+                                          <div class="contentbody">
+                                                <h4>2/18禮拜六晚上00:30台北中華錢櫃</h4>
+                                                <p>錢櫃中華新館</p>
+                                                <p>星期日,二月 19日 04:00</p>
+
+                                          </div>
+                                          <div class="contentbody-footer">
+                                                <div class="footer-img">
+                                                      <img loading="lazy"
+                                                            src="https://cdn.eatgether.com/member/011dbf28-010f-4843-bd00-fc1305d182d0/avatar/80c7919d-c754-4e77-aa08-540e7e6325f0.jpg"
+                                                            width="30" heigh="30" style="border-radius: 50px;">
+                                                </div>
+                                                <div class="footer-span">
+                                                      <span class="has-text-weight-bold"
+                                                            style="color: rgb(51, 51, 51); z-index: 99;">
+                                                            A Xu
+                                                      </span>
+                                                      <span class="icon">
+                                                            <img src="/static/media/popularity.d5eeb51c.svg" alt="">
+                                                      </span>
+                                                      <span>
+                                                            1247
+                                                      </span>
+                                                </div>
+                                          </div>
+
+                                    </a>
+                              </div>
+                              <div class="newpost-card2">
+                                    <a href="https://www.eatgether.com/zh-tw/meetup/cf126152-4f40-4176-bda8-c6579f443911"
+                                          style="color: black;">
+                                          <div class="newpost-card-title">
+                                                <img src="https://picsum.photos/294/270/?random=10">
+                                          </div>
+                                          <div class="contentbody">
+                                                <h4>2/18禮拜六晚上00:30台北中華錢櫃</h4>
+                                                <p>錢櫃中華新館</p>
+                                                <p>星期日,二月 19日 04:00</p>
+
+                                          </div>
+                                          <div class="contentbody-footer">
+                                                <div class="footer-img">
+                                                      <img loading="lazy"
+                                                            src="https://cdn.eatgether.com/member/011dbf28-010f-4843-bd00-fc1305d182d0/avatar/80c7919d-c754-4e77-aa08-540e7e6325f0.jpg"
+                                                            width="30" heigh="30" style="border-radius: 50px;">
+                                                </div>
+                                                <div class="footer-span">
+                                                      <span class="has-text-weight-bold"
+                                                            style="color: rgb(51, 51, 51); z-index: 99;">
+                                                            A Xu
+                                                      </span>
+                                                      <span class="icon">
+                                                            <img src="/static/media/popularity.d5eeb51c.svg" alt="">
+                                                      </span>
+                                                      <span>
+                                                            1247
+                                                      </span>
+                                                </div>
+                                          </div>
+
+                                    </a>
+                              </div>
+                              <div class="newpost-card2">
+                                    <a href="https://www.eatgether.com/zh-tw/meetup/cf126152-4f40-4176-bda8-c6579f443911"
+                                          style="color: black;">
+                                          <div class="newpost-card-title">
+                                                <img src="https://picsum.photos/294/270/?random=10">
+                                          </div>
+                                          <div class="contentbody">
+                                                <h4>2/18禮拜六晚上00:30台北中華錢櫃</h4>
+                                                <p>錢櫃中華新館</p>
+                                                <p>星期日,二月 19日 04:00</p>
+
+                                          </div>
+                                          <div class="contentbody-footer">
+                                                <div class="footer-img">
+                                                      <img loading="lazy"
+                                                            src="https://cdn.eatgether.com/member/011dbf28-010f-4843-bd00-fc1305d182d0/avatar/80c7919d-c754-4e77-aa08-540e7e6325f0.jpg"
+                                                            width="30" heigh="30" style="border-radius: 50px;">
+                                                </div>
+                                                <div class="footer-span">
+                                                      <span class="has-text-weight-bold"
+                                                            style="color: rgb(51, 51, 51); z-index: 99;">
+                                                            A Xu
+                                                      </span>
+                                                      <span class="icon">
+                                                            <img src="/static/media/popularity.d5eeb51c.svg" alt="">
+                                                      </span>
+                                                      <span>
+                                                            1247
+                                                      </span>
+                                                </div>
+                                          </div>
+
+                                    </a>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script src="./eatGether.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>
