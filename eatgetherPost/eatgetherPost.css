@@ -5,8 +5,8 @@
 }
 
 .Container {
-  width: 1280px;
-  height: 960px;
+  width: 100%;
+  height: 100%;
 }
 
 .list-cards {
@@ -26,8 +26,7 @@
 .body{
   display: block;
   align-content: center;
-  width: 1280px;
-  position: absolute;
+  width: 100%;
   margin: auto;
   background-color: #eae9e9;
   font-size: 1em;
@@ -76,14 +75,13 @@
 
 .newpost-cards {
   box-sizing: border-box;
-  width: auto;
-  margin-right: 10px;
+  width: 100%;
   display: block;
-  width: 750px;
+  width: 100%;
 }
 
 .newpost-card{
-  width: 750px;
+  width: 650px;
   margin: 0 20px;
 }
 
@@ -113,7 +111,7 @@
 .newpostcard-content{
     margin: 10px;
     height: 254px;
-    width: 100%;
+    width: 75%;
     background: rgb(255, 255, 255);
     border-radius: 20px;
     padding: 0px 24px;
@@ -204,8 +202,8 @@ display: -webkit-box;
 }
 
 .new-post .cards-extension-btns .extension-btn{
-  position: relative;
-  left: 45%;
+  /* position: relative;
+  left: 45%; */
 }
 
 .new-post .cards-extension-btns .extension-btn .btnextension-btn{
@@ -228,10 +226,11 @@ display: -webkit-box;
 
 .body-content{
   display: flex;
+  width: 100%;
 }
 
 .body-content .lessons{
-  padding-left: 40px;
+  width: fit-content;
 }
 
 .body-content .lessons .h4lesson{
@@ -243,17 +242,12 @@ display: -webkit-box;
 }
 
 .body-content .lessons .imglesson{
-      width: 371px;
+    width: 100%;
     height: 209px;
     border-radius: 15px;
     margin: 8px 0px;
 }
 
-div[carousel-indicators] {
-
-  position: relative;
-
-}
 
 
 
@@ -267,13 +261,13 @@ div[carousel-indicators] {
 
 @media screen and (max-width: 760px){
 .container{
-  width: 760px;
+  width: 100%;
   box-sizing: border-box;
   height: auto;
 }
 
 .body{
-  width: 760px;
+  width: 100%;
   display: block;
 }
 
@@ -285,12 +279,12 @@ div[carousel-indicators] {
 }
 
 .newpost-cards{
-  width: 600px;
+  width: 100%;
   margin: 0;
 }
 
 .newpost-card{
-  width: inherit;
+  width: 500px;
   margin-left: 0;
 }
 
