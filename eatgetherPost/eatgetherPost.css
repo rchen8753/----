@@ -259,7 +259,7 @@ display: -webkit-box;
 
 
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 768px){
 .container{
   width: 100%;
   box-sizing: border-box;
@@ -284,7 +284,7 @@ display: -webkit-box;
 }
 
 .newpost-card{
-  width: 500px;
+  width: 145%;
   margin-left: 0;
 }
 
