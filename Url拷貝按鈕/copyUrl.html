@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+
+<body>
+      <div>
+            <input type="button" value="Copy Url" onclick="Copy();" />
+            <br />
+            Paste: <textarea rows="1" cols="30"></textarea>
+      </div>
+
+      <script>
+            function Copy() {
+                  let url = document.location.href
+                  navigator.clipboard.writeText(url).then(function () {
+                        alert('Copied!')
+                        console.log('Copied!');
+                  }, function () {
+                        alert('Copy error')
+                        console.log('Copy error')
+                  });
+            }
+      </script>
+</body>
+
+</html>
